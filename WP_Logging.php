@@ -1,4 +1,5 @@
 <?php
+namespace pippinsplugins;
 
 /**
  * Class for logging events and errors
@@ -441,4 +442,3 @@ class WP_Logging {
 	}
 
 }
-$GLOBALS['wp_logs'] = new WP_Logging();
